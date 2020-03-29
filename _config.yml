@@ -221,7 +221,7 @@ calendar:
   singleEvents: true
   maxResults: 250
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 5
   labels:
