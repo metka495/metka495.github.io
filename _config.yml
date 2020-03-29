@@ -1,6 +1,6 @@
 ---
-title: NexT
-timezone: UTC
+title: metka
+timezone: Asia/Shanghai
 collections:
   posts:
     title: Posts
@@ -16,8 +16,8 @@ defaults:
     layout: post
     comments: true
 subtitle: 
-description: 
-author: John Doe
+description: null pointer exception
+author: metka
 language: zh-Hans
 date_format: "%Y-%m-%d"
 url: 
