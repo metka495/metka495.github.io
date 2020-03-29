@@ -135,8 +135,8 @@ mathjax:
   cdn: "//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"
 han: false
 disqus:
-  enable: true
-  shortname: your-disqus-shortname
+  enable: false
+  shortname: 
   count: true
   hide: false
 wildfire:
@@ -162,12 +162,12 @@ changyan:
   appid: 
   appkey: 
 gitalk:
-  enable: false
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
-  admin: 
+  enable: true
+  clientID: 922278a2e92930a19355
+  clientSecret: e87d06b942c72e61da8f72bcab07f02e1f94e021
+  repo: metka495.github.io
+  owner: metka495
+  admin: metka495
 duoshuo_info:
   ua_enable: true
   admin_enable: false
