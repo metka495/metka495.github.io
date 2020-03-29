@@ -1,5 +1,5 @@
 ---
-title: metka
+title: METKA
 timezone: Asia/Shanghai
 collections:
   posts:
@@ -16,7 +16,7 @@ defaults:
     layout: post
     comments: true
 subtitle: 
-description: null pointer exception
+description: NULL POINTER EXCEPTION
 author: metka
 language: zh-Hans
 date_format: "%Y-%m-%d"
