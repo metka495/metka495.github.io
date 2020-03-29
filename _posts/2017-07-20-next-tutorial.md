@@ -1,9 +1,10 @@
 ---
 title: Next Theme Tutorial
-description: NexT is a high quality elegant Jekyll theme ported from Hexo Next. It is crafted from scratch, with love.
+date: 2017-07-20 00:00:00 Z
 categories:
- - tutorial
-tags:
+- tutorial
+description: NexT is a high quality elegant Jekyll theme ported from Hexo Next. It
+  is crafted from scratch, with love.
 ---
 
 > NexT is a high quality elegant [Jekyll](https://jekyllrb.com) theme ported from [Hexo Next](https://github.com/iissnan/hexo-theme-next). It is crafted from scratch, with love.

@@ -1,7 +1,8 @@
 ---
-layout: null
+layout: 
 sitemap: false
 ---
+
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   {% for post in site.posts %}

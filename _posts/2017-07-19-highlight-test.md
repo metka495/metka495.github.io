@@ -1,8 +1,8 @@
 ---
 title: Highlight Test
+date: 2017-07-19 00:00:00 Z
 categories:
- - Test
-tags:
+- Test
 ---
 
 This is a highlight test.

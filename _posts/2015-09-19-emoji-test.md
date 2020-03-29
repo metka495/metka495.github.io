@@ -1,6 +1,6 @@
 ---
 title: Emoji Test
-tags:
+date: 2015-09-19 00:00:00 Z
 ---
 
 This is an emoji test. :smile: lol.
