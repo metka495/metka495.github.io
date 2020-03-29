@@ -127,7 +127,7 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 custom_logo:
   enabled: false
-  image: 
+  image: "/uploads/QQ%E5%9B%BE%E7%89%8720200323182653.jpg"
 highlight_theme: normal
 mathjax:
   enable: false
