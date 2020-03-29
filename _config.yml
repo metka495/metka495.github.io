@@ -268,6 +268,4 @@ css: assets/css
 js: assets/js
 images: assets/images
 version: 5.1.1
-
-# 头像
-avatar: /uploads/avatar.png
+avatar: "/uploads/avatar.png"
