@@ -165,7 +165,7 @@ gitalk:
   enable: true
   clientID: 922278a2e92930a19355
   clientSecret: e87d06b942c72e61da8f72bcab07f02e1f94e021
-  repo: metka495.github.io
+  repo: blogtalk
   owner: metka495
   admin: metka495
   id: location.pathname
