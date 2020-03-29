@@ -65,10 +65,10 @@ menu_icons:
   categories: th
   schedule: calendar
   tags: tags
-  archives: archive
   sitemap: sitemap
+  archives: archive
   commonweal: heartbeat
-scheme: Muse
+scheme: Mist
 font:
   enable: true
   host: 
