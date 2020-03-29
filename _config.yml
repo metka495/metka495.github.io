@@ -136,7 +136,7 @@ mathjax:
 han: false
 disqus:
   enable: true
-  shortname: 
+  shortname: your-disqus-shortname
   count: true
   hide: false
 wildfire:
