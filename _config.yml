@@ -221,7 +221,7 @@ calendar:
   singleEvents: true
   maxResults: 250
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 5
   labels:
@@ -229,7 +229,7 @@ algolia_search:
     hits_empty: 'We didn''t find any results for the search: ${query}'
     hits_stats: "${hits} results found in ${time} ms"
 local_search:
-  enable: false
+  enable: true
   trigger: auto
   top_n_per_article: 1
 exturl: false
