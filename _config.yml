@@ -18,7 +18,7 @@ defaults:
 subtitle: 
 description: 
 author: John Doe
-language: en
+language: zh-Hans
 date_format: "%Y-%m-%d"
 url: 
 baseurl: 
