@@ -168,6 +168,8 @@ gitalk:
   repo: metka495.github.io
   owner: metka495
   admin: metka495
+  id: location.pathname
+  distractionFreeMode: false
 duoshuo_info:
   ua_enable: true
   admin_enable: false
