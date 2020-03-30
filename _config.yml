@@ -52,7 +52,7 @@ rss:
 authoricon: heart
 copyright: true
 canonical: true
-seo: false
+seo: true
 index_with_subtitle: false
 menu:
   home: "/"
