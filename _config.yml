@@ -2,6 +2,9 @@
 title: METKA
 timezone: Asia/Shanghai
 collections:
+  posts-diary:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
