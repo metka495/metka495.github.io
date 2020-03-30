@@ -46,7 +46,7 @@ plugins:
 - jemoji
 - jekyll-sitemap
 - jekyll-feed
-- - jekyll-seo-tag
+- jekyll-seo-tag
 favicon: "/assets/favicon.ico"
 keywords: Jekyll, NexT
 rss: 
