@@ -1,15 +1,22 @@
 ---
-title: Mysql 隔离级别
-date: 2020-04-01
 categories:
-- mysql
-tags: 
-- mysql
+  - mysql
+date: '2020-04-01'
+sha: 964fbba3501174b6473ded04e507035d18b5333c
+slug: mysql-isolation
+tags:
+  - mysql
+title: 'Mysql 隔离级别'
+info: 
+comment: 
+published: false
+
 ---
+
 
 # Read Uncommitted #
 
-x=1
+x=1 
 > T时间线：----------------------------------------------------------------------------> commit
 > 
 > 事务A：x=1, set x=2,  set x=3 , rollback  x=1
