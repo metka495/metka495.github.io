@@ -164,8 +164,8 @@ changyan:
   appkey: 
 gitalk:
   enable: true
-  clientID: 922278a2e92930a19355
-  clientSecret: e87d06b942c72e61da8f72bcab07f02e1f94e021
+  clientID: 35252a97aa6c32e2016f
+  clientSecret: 57e9c47da36453186b468a0a319148ae8e2f7a04
   repo: blogtalk
   owner: metka495
   admin: metka495
