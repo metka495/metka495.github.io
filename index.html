@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="hero-section">
+    <h1 class="hero-title">欢迎来到我的技术博客</h1>
+    <p class="hero-subtitle">分享编程技术、开发经验和学习笔记的个人技术博客</p>
+    <div class="hero-cta">
+      <a href="#posts" class="btn btn-primary">浏览文章</a>
+      <a href="/about/" class="btn btn-secondary">了解更多</a>
+    </div>
+  </div>
+
+  <div class="home-intro">
+    <h2>关于这个博客</h2>
+    <p>这里是分享编程技术、开发经验和学习笔记的地方。我会在这里发布关于软件开发、编程技巧、工具使用等方面的文章。</p>
+    <p>主要关注的技术领域包括：</p>
+    <ul class="tech-stack">
+      <li><span class="tech-item">Python</span></li>
+      <li><span class="tech-item">JavaScript</span></li>
+      <li><span class="tech-item">Git & 版本控制</span></li>
+      <li><span class="tech-item">Web 开发</span></li>
+      <li><span class="tech-item">DevOps</span></li>
+    </ul>
+  </div>
+
+  <div id="posts" class="home-posts">
+    <h2>最新文章</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+          <div class="post-tags">
+            {% for tag in post.tags limit:3 %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<style>
+.hero-section {
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, rgba(24, 226, 153, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 24px;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #0d0d0d 0%, #18E299 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-intro {
+  padding: 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  margin-bottom: 3rem;
+  background: #fafafa;
+}
+
+.home-intro h2 {
+  margin-top: 0;
+  color: var(--color-text-primary);
+}
+
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.tech-item {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--color-accent-light);
+  color: var(--color-accent-hover);
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.home-posts {
+  margin-top: 3rem;
+}
+
+.home-posts h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post-excerpt {
+  color: var(--color-text-tertiary);
+  font-size: 0.9375rem;
+  margin: 0.5rem 0 1rem;
+  line-height: 1.6;
+}
+
+.post-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tech-stack {
+    justify-content: center;
+  }
+}
+</style>
